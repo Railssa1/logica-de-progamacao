@@ -1,0 +1,20 @@
+Algoritmo "fatorial"
+
+Var
+   i, n, fatorial : inteiro
+
+Inicio
+
+      escreva("Digite o valor de N: ")
+      leia(n)
+      
+      fatorial <- 1
+      
+      para i de 1 ate n faca
+           fatorial <- fatorial * i
+      fimpara
+      
+      escreva("FATORIAL = ", fatorial)
+
+
+Fimalgoritmo
